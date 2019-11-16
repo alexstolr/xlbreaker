@@ -1,5 +1,5 @@
 {
-  "name": "postman-il",
+  "name": "xlbraker",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -27,9 +27,9 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/postman-il.git"
+    "url": "git://github.com/alexstolr/xlbreaker.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "alexstolr",
   "license": "",
   "engines": {
     "node": "^10.16"

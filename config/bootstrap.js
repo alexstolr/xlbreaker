@@ -9,8 +9,10 @@
  * https://sailsjs.com/config/bootstrap
  */
 
-module.exports.bootstrap = async function() {
+ var breaker = require('../api/services/XlBreaker');
 
+module.exports.bootstrap = async function() {
+  breaker.breaklAllFiles();
   // By convention, this is a good place to set up fake data during development.
   //
   // For example:
